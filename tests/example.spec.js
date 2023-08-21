@@ -14,11 +14,13 @@ const timeoutPerscroll = () => {
   return 5000 + Math.random() * 1000;
 };
 
-// Your Favorite Twitter shitposter
+// How long to loop the [scroll + scrape] for
+// normally this is too much because a person's timeline won't have that many posts, probaly 100 is good enough
 const loopFor = 300;
 //@jjohnpotter
 
 test("Twitter TimeLine Scraper", async ({ page }) => {
+  // Your Favorite Twitter shitposter
   const twitterAt = "TheWeebDev";
 
   // upper bound of our execution time
@@ -60,6 +62,7 @@ test("Twitter TimeLine Scraper", async ({ page }) => {
   }
 });
 
+// Scape in Parallel Too!  Don't do too many or ELON will get mad >:(
 // test("Twitter Screenshot 2", async ({ page }) => {
 //   const twitterAt = "realGeorgeHotz";
 
