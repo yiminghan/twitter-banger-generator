@@ -30,34 +30,6 @@ outdir = "./checkpoints/char_level_models"
 
 torch.set_default_device(device)
 
-# ls ./scrap |  cut -f1 -d'.'
-poaster_ids = [
-    # "10x_er",
-    # "1a1n1d1y",
-    # "BasedBeffJezos",
-    # "Ryan_Gasoline",
-    # "Soul0Engineer",
-    # "TheWeebDev",
-    # "anammostarac",
-    # "ctjlewis",
-    # "fabiankunick",
-    "goth600",
-    # "growing_daniel",
-    # "kosenjuu",
-    # "powerbottomdad1",
-    # "realGeorgeHotz",
-    # "shauseth",
-    # "skooookum",
-    # "t3dotgg",
-    # "tekbog",
-    # "tszzl",
-    # "var_epsilon",
-    # "wagieeacc",
-    # "wireless_anon",
-    # "xlr8harder",
-    # "yacineMTB",
-]
-
 
 class FeedForwardBlock(nn.Module):
     def __init__(self, n_embed) -> None:
@@ -307,6 +279,35 @@ if args.train == True:
 else:
     sample(args.twitter_id)
 
+# If you just want to train everything:
+
+# ls ./scrap |  cut -f1 -d'.'
+poaster_ids = [
+    # "10x_er",
+    # "1a1n1d1y",
+    # "BasedBeffJezos",
+    # "Ryan_Gasoline",
+    # "Soul0Engineer",
+    # "TheWeebDev",
+    # "anammostarac",
+    # "ctjlewis",
+    # "fabiankunick",
+    "goth600",
+    # "growing_daniel",
+    # "kosenjuu",
+    # "powerbottomdad1",
+    # "realGeorgeHotz",
+    # "shauseth",
+    # "skooookum",
+    # "t3dotgg",
+    # "tekbog",
+    # "tszzl",
+    # "var_epsilon",
+    # "wagieeacc",
+    # "wireless_anon",
+    # "xlr8harder",
+    # "yacineMTB",
+]
 
 # for p in poaster_ids:
 # train(p)
