@@ -1,10 +1,10 @@
 import fs from "fs";
 
 // @ts-check
-const { test, expect } = require("@playwright/test");
+const { test } = require("@playwright/test");
 
 // Use a throwaway account for this
-const userName = "MeSocam48073";
+const userName = "YOUR ACCOUNT HERE";
 const password = "YOUR PASSWORD HERE";
 
 const scrapeFilePath = "./scrap";
@@ -21,7 +21,7 @@ const loopFor = 300;
 
 test("Twitter TimeLine Scraper", async ({ page }) => {
   // Your Favorite Twitter shitposter
-  const twitterAt = "TheWeebDev";
+  const twitterAt = "goth600";
 
   // upper bound of our execution time
   test.setTimeout(loopFor * 6000 + 10000);
