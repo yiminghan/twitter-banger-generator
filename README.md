@@ -24,13 +24,13 @@ pip install torch numpy transformers datasets tiktoken wandb tqdm argparse
 
 Download pre-trained models:
 
-```
+```bash
 wget https://huggingface.co/yiminghan/twitter-bangers/resolve/main/goth600.pt
+# The script expects the model to be in nanoGPT/out-{TWITTER HANDLE}/ckpt.pt
 mkdir -p nanoGPT/out-goth600
 mv goth600.pt nanoGPT/out-goth600/ckpt.pt
+# Find all the models here: https://huggingface.co/yiminghan/twitter-bangers/tree/main
 ```
-
-Find all the models here: https://huggingface.co/yiminghan/twitter-bangers/tree/main
 
 That's it! Let's Generate!
 
@@ -49,43 +49,17 @@ This generates a lot of stuff, for example:
 ```
 % MPS=1 bash sample_finetune.sh goth600
 ---------------
-
-
 The concept is simple, if you're not paying attention, you're not paying attention.
 
 It's a game.
-
 It's a living.
-
 It's a time.
-
 It's an obsession.
-
 And you need to be here.
-
 We can start by building a simulation.
-
 We can start by building a simulation.
-
 We can start by creating an AI simulation.
-
 We can start by creating an AI simulation.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
-We can start by creating a simulation using only data.
 We can start by creating a simulation using only data.
 // .....
 ---------------
