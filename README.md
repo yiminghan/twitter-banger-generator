@@ -10,14 +10,6 @@ With Twitter Banger Generator, you can scrap, train, and generate your own Twitt
 
 Scrap, train, and generate your own Twitter bangers, all locally on your own machine!
 
-## Features
-
-- [x] Automated Builtin Twitter Scraper
-- [x] Character-level Transformer training
-- [x] GPT2 full fine-tuning (using [nanoGPT](https://github.com/karpathy/nanoGPT))
-- [ ] GPT2 qlora fine-tuning (Coming Soon)
-- [ ] Llama fine-tuning
-
 ## Quick Start
 
 Let's start by generating your banger in a few easy steps!
@@ -168,6 +160,9 @@ Feel free to play around the learning rates in `finetune.py`
 
 But anyways, right now I'm still learning about parameter efficient finetuning techniques, so I plan to add qlora training soon, either submit a PR into NanoGPT or do it in this repo directly.
 
+- [x] Automated Builtin Twitter Scraper
+- [x] Character-level Transformer training
+- [x] GPT2 full fine-tuning (using [nanoGPT](https://github.com/karpathy/nanoGPT))
 - [ ] GPT2 qlora fine-tuning (Coming Soon)
 - [ ] Llama fine-tuning
 
