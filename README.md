@@ -12,15 +12,11 @@ Scrap, train, and generate your own Twitter bangers, all locally on your own mac
 
 ## Features
 
-[x] Automated Builtin Twitter Scraper
-
-[x] Character-level Transformer training
-
-[x] GPT2 full fine-tuning (using [nanoGPT](https://github.com/karpathy/nanoGPT))
-
-[ ] GPT2 qlora fine-tuning (Coming Soon)
-
-[ ] Llama fine-tuning
+- [x] Automated Builtin Twitter Scraper
+- [x] Character-level Transformer training
+- [x] GPT2 full fine-tuning (using [nanoGPT](https://github.com/karpathy/nanoGPT))
+- [ ] GPT2 qlora fine-tuning (Coming Soon)
+- [ ] Llama fine-tuning
 
 ## Quick Start
 
@@ -166,15 +162,14 @@ bash finetune_gpt2.sh {TWITTER HANDLE}
 
 Feel free to play around the learning rates in `finetune.py`
 
-## Roadmap
+## TODO
 
 **Once I get a good GPU, it's over for you guys. I'm going to train a Llama2 finetune and unleash it on the world.**
 
 But anyways, right now I'm still learning about parameter efficient finetuning techniques, so I plan to add qlora training soon, either submit a PR into NanoGPT or do it in this repo directly.
 
-[ ] GPT2 qlora fine-tuning (Coming Soon)
-
-[ ] Llama fine-tuning
+- [ ] GPT2 qlora fine-tuning (Coming Soon)
+- [ ] Llama fine-tuning
 
 ## Contributing
 
