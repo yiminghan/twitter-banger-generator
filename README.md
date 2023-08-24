@@ -10,7 +10,7 @@ With Twitter Banger Generator, you can scrap, train, and generate your own Twitt
 
 Scrap, train, and generate your own Twitter bangers, all locally on your own machine!
 
-### Features
+## Features
 
 [x] Automated Builtin Twitter Scraper
 
@@ -22,7 +22,7 @@ Scrap, train, and generate your own Twitter bangers, all locally on your own mac
 
 [ ] Llama fine-tuning
 
-### Quick Start
+## Quick Start
 
 Let's start by generating your banger in a few easy steps!
 
@@ -134,7 +134,7 @@ You are the best. You are the best. You are the best
 
 ```
 
-### Scrape your own favorite Twitter banger account
+## Scrape your own favorite Twitter banger account
 
 All scraping logic is done inside `scraper.spec.js` via [playwright](https://playwright.dev/)
 
@@ -152,7 +152,7 @@ To do begin scraping your favoirte Twitter account, do the following:
 
 6. Please don't abuse this, I don't want Elon to get pissed.
 
-### Finetuning your own model
+## Finetuning your own model
 
 Before you finetune, please `cd` into nanoGPT and complete the setup instructions there.
 
@@ -166,7 +166,7 @@ bash finetune_gpt2.sh {TWITTER HANDLE}
 
 Feel free to play around the learning rates in `finetune.py`
 
-### Roadmap
+## Roadmap
 
 **Once I get a good GPU, it's over for you guys. I'm going to train a Llama2 finetune and unleash it on the world.**
 
@@ -176,6 +176,6 @@ But anyways, right now I'm still learning about parameter efficient finetuning t
 
 [ ] Llama fine-tuning
 
-### Contributing
+## Contributing
 
 PRs Welcome! My GPU is trash right now so I can't train anything bigger, I would be excited to see what a bigger model can generate!
